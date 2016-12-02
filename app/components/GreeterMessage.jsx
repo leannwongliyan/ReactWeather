@@ -21,7 +21,7 @@ var React = require('react');
 
 var GreeterMessage = ({temp, location}) => {
 	return (
-		<h3>Its {temp} in {location}.</h3>
+		<h3 classname="text-center">Its {temp} in {location}.</h3>
 	);
 }
 
