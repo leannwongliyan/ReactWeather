@@ -1,10 +1,19 @@
 var React = require('react');
+var {Link} = require('react-router');
 
 var Extensions = (props) => {
 	return (
 		<div>
-			<h3>Extensions</h3>	
-			<p>Welcome to extensions page!</p>
+			<h1 className="text-center">Extensions</h1>	
+			<p>Here are a few examples locations to try out:</p>
+			<ol>
+				<li>
+					<Link to='/?location=Singapore'>Singapore, SG</Link>
+				</li>
+				<li>
+					<Link to='/?location=Rio'>Rio, Brazil</Link>
+				</li>
+			</ol>
 		</div>
 	)
 };
