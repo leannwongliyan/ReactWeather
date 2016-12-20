@@ -30,7 +30,8 @@ module.exports = {
 			GreeterMessage: 'app/components/GreeterMessage.jsx',
 			About: 'app/components/About.jsx',
 			Extensions: 'app/components/Extensions.jsx',
-			openWeatherMap: 'app/api/openWeatherMap.jsx'
+			openWeatherMap: 'app/api/openWeatherMap.jsx',
+			ErrorModal: 'app/components/ErrorModal.jsx'
 		},
 		extensions: ['', '.js', '.jsx']
 	},
